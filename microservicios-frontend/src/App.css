@@ -1,0 +1,173 @@
+/* App.css */
+
+/* Estilos globales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  margin-top: 20px;
+}
+
+h2, h3, h4 {
+  color: #4a148c; /* Color morado para títulos */
+}
+
+/* Estilos para el logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #4a148c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Estilos para el Navbar */
+.navbar {
+  background-color: #6a1b9a;
+  padding: 10px 20px;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para los formularios */
+input, select, button {
+  border-radius: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="date"], select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #6a1b9a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4a148c;
+}
+
+/* Estilos para tablas */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #6a1b9a;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+button.btn-danger {
+  background-color: #d32f2f;
+}
+
+button.btn-danger:hover {
+  background-color: #b71c1c;
+}
+
+button.btn-primary {
+  background-color: #1976d2;
+}
+
+button.btn-primary:hover {
+  background-color: #1565c0;
+}
+/* Botón morado */
+.btn-purple {
+  background-color: #6a1b9a;
+  color: white;
+}
+
+.btn-purple:hover {
+  background-color: #4a148c;
+}
+
+/* Tabla de usuarios similar a la de cursos */
+.table-striped th {
+  background-color: #6a1b9a;
+  color: white;
+}
+
+.table-bordered td {
+  border: 1px solid #ddd;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1e7f7;
+}
+
+/* Estilo general de los formularios */
+.form-label {
+  font-weight: bold;
+  color: #4a148c;
+}
+
+.form-control {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.form-control:focus {
+  border-color: #6a1b9a;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
